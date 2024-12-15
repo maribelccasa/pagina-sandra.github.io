@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Sandra</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#portafoleo">Portafolio</a></li>
+          <li><a href="#proyectos">Habilidades</a></li>
+          <li><a href="#contacto">Contactato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+   
+    <section class="section">
+      <div class="section__container">
+          <div class="content">
+              <p class="subtitle">HOLA</p>
+              <h1 class="title">
+                  Soy <span>Sandra Maribel<br />una</span> Desarrolladora Web
+              </h1>
+              <p class="description">
+                  ¡Bienvenida a mi portafolio de desarrolladora web! Soy Sandra Maribel, una desarrolladora web hábil y
+                  creativa con una pasión por crear sitios web hermosos, responsivos y fáciles de usar. He trabajado en una variedad de
+                  proyectos web, desde blogs personales hasta plataformas de comercio electrónico.
+              </p>
+              <div class="action__btns">
+                <button class="hire__me">
+                  <a href="https://wa.me/+51986704695" target="_blank">Contrátame</a>
+                </button>
+                <button class="portfolio">
+                  <a href="ruta/a/tu/archivo.pdf" download="Portafolio.pdf">Portafolio</a>
+                </button>
+              </div>
+          </div>
+          <div class="image">
+              <img src="assets/perfil.jpg" alt="perfil" />
+          </div>
+      </div>
+  </section>
+
+<div class="espacio"></div>
+  <section class="portafolio"id="portafoleo">
+    <div class="portafolio__contenedor" >
+      <h2 class="portafolio__titulo">Mis Proyectos</h2>
+      <div class="portafolio__cuadricula">
+        <!-- Proyecto 1 -->
+        <div class="portafolio__tarjeta">
+          <img src="assets/Agricultura Inteligente.jpg" alt="Agricultura Inteligente" class="portafolio__imagen" />
+          <div class="portafolio__informacion">
+            <h3 class="portafolio__nombre-proyecto">Agricultura Inteligente</h3>
+            <p class="portafolio__descripcion">Optimización del riego utilizando sensores de humedad.</p>
+          </div>
+        </div>
+  
+        <!-- Proyecto 2 -->
+        <div class="portafolio__tarjeta">
+          <img src="assets/Plataforma de Gestión Agropecuaria.jpg" alt="Plataforma de Gestión Agropecuaria" class="portafolio__imagen" />
+          <div class="portafolio__informacion">
+            <h3 class="portafolio__nombre-proyecto">Gestión Agropecuaria</h3>
+            <p class="portafolio__descripcion">Herramienta para gestionar inventarios y monitoreo.</p>
+          </div>
+        </div>
+  
+        <!-- Proyecto 3 -->
+        <div class="portafolio__tarjeta">
+          <img src="assets/Monitoreo de Ganado con IoT.jpg" alt="Monitoreo de Ganado con IoT" class="portafolio__imagen" />
+          <div class="portafolio__informacion">
+            <h3 class="portafolio__nombre-proyecto">Monitoreo de Ganado</h3>
+            <p class="portafolio__descripcion">Sistema de sensores para monitoreo en tiempo real.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="espacio"></div>
+  
+  <section class="habilidades" id="proyectos">
+    <div class="contenedor__seccion">
+        <h2 class="titulo">Habilidades</h2>
+        <div class="habilidad">
+            <div class="habilidad__icono">
+                <img src="assets/html.png" alt="HTML" />
+            </div>
+            <div class="habilidad__informacion">
+                <p class="habilidad__nombre">HTML</p>
+                <div class="habilidad__progreso">
+                    <div class="barra-progreso" style="width: 90%"></div>
+                </div>
+                <p class="habilidad__porcentaje">90%</p>
+            </div>
+        </div>
+       <div class="habilidad">
+            <div class="habilidad__icono">
+                <img src="assets/css.png" alt="CSS" />
+            </div>
+            <div class="habilidad__informacion">
+                <p class="habilidad__nombre">CSS</p>
+                <div class="habilidad__progreso">
+                    <div class="barra-progreso" style="width: 85%"></div>
+                </div>
+                <p class="habilidad__porcentaje">85%</p>
+            </div>
+        </div>
+  
+
+
+        <div class="habilidad">
+            <div class="habilidad__icono">
+                <img src="assets/mysql.png" alt="MySQL" />
+            </div>
+            <div class="habilidad__informacion">
+                <p class="habilidad__nombre">MySQL</p>
+                <div class="habilidad__progreso">
+                    <div class="barra-progreso" style="width: 75%"></div>
+                </div>
+                <p class="habilidad__porcentaje">75%</p>
+            </div>
+        </div>
+        
+        <div class="habilidad">
+            <div class="habilidad__icono">
+                <img src="assets/dart.png" alt="Dart" />
+            </div>  
+            <div class="habilidad__informacion">
+                <p class="habilidad__nombre">Dart</p>
+                <div class="habilidad__progreso">
+                    <div class="barra-progreso" style="width: 70%"></div>
+                </div>
+                <p class="habilidad__porcentaje">70%</p>
+            </div>
+        </div>
+    </div>
+  </section> 
+
+  
+<section class="contacto" id="contacto">
+  <div class="contacto__contenedor">
+    <div class="contacto__informacion">
+      <h2 class="contacto__titulo">Contáctame</h2>
+      <p class="contacto__descripcion">Si tienes alguna pregunta o deseas más información, no dudes en ponerte en contacto conmigo. ¡Estoy aquí para ayudarte!</p>
+      <div class="contacto__detalles">
+        <div class="contacto__detalle">
+          <i class="bi bi-envelope-fill contacto__icono"></i>
+          <p class="contacto__detalle__texto">Maribelccasachoqueccota@gmail.com</p>
+        </div>
+        <div class="contacto__detalle">
+          <i class="bi bi-telephone-fill contacto__icono"></i>
+          <p class="contacto__detalle__texto">+51 986 704 695</p>
+        </div>
+      </div>
+    </div>
+    <div class="contacto__formulario">
+      <form>
+        <input type="text" class="contacto__input contacto__input--nombre" placeholder="Tu Nombre" required />
+        <input type="email" class="contacto__input contacto__input--email" placeholder="Tu Correo Electrónico" required />
+        <textarea class="contacto__textarea" placeholder="Tu Mensaje" required></textarea>
+        <button type="submit" class="contacto__btn">Enviar Mensaje</button>
+      </form>
+    </div>
+  </div>
+
+</section>
+
+<footer class="footer">
+  <div class="footer__content">
+      <span class="footer__text">Contactame 💚💚..</span>
+      <div class="footer__icons">
+          <a href="https://www.facebook.com" target="_blank" class="footer__icon">
+              <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" class="footer__icon">
+              <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://wa.me/+51986704695" target="_blank" class="footer__icon">
+              <i class="bi bi-whatsapp"></i>
+          </a>
+      </div>
+  </div>
+</footer>
+
+
+  </body>
+</html>
